@@ -3,6 +3,12 @@
 #include <math.h>
 #include <stdlib.h>
 
+#define N 512
+
+typedef struct {
+    int coeffs[N];
+} poly;
+
 static const int q = 12289;
 static const double sigma_min = 1.277833697;
 static const double sigma_max = 1.8205;

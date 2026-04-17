@@ -2,12 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-
-#define N 512
-
-typedef struct {
-    int coeffs[N];
-} poly;
+#include "poly.h"
 
 static const int q = 12289;
 static const double sigma_min = 1.277833697;

@@ -135,6 +135,10 @@ int SamplerZ(double mu, double sigma_prime)
     }
 }
 
+void Reduce(poly f, poly g, poly *F, poly *G){
+
+}
+
 int main(void)
 {
     double mu = 0.3;
